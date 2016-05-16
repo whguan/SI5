@@ -1,0 +1,9 @@
+To run code : 
+# make clean
+# make
+# make DS 
+or 
+#./DSwhguan T1whguan.txt 100
+
+To check memory leaking:
+valgrind --tool=memcheck --leak-check=full ./ABwhguan T1whguan.txt  1
